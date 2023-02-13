@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
     <title>Anandhu P A</title>
 </head>
@@ -117,10 +118,103 @@
 
 <!-- part2 start  -->
 <!-- projects start -->
+<div id="div-projectHeading" >
+    <h1 class="section-title">PROJECTS</h1>
+  </div>
 
+<div id="projects">
+    <!-- <div class="project-card">
+    <a href="#"><img src="ttps://static.wixstatic.com/media/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg/v1/fill/w_640,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg" alt="project-image"></a>
+    <h3 class="project-title">Ecommerce project </h3>
+    <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, itaque libero. Ipsa dolorem obcaecati atque ratione quo ipsam possimus qui! Eveniet labore, deserunt dolor consequuntur placeat sapiente velit, neque voluptatibus, quidem quia error quisquam! Hic quas nulla sed ad possimus aperiam, mollitia molestiae iusto corporis quis ullam maiores, totam eligendi.</p>    
+    <div class="project-tech-stack">
+        tech staack
+    </div>
+    <div>
+         <button class="github-link">Github</button>
+        <button class="deployed-link">view</button> 
+    </div>
+
+</div> -->
+ <!-- project card starts here -->
+    <div class="project-card">
+     <img src="https://static.wixstatic.com/media/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg/v1/fill/w_640,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg" alt="project-image">
+        <h1 class="project-title">Ecommerce project </h1>
+        <p class="project-description">Lorem, ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis necessitatibus quis ea et perspiciatis veritatis, dolore autem maxime dolores, nemo consequulestiae? eligendi.</p>    
+      
+        <div class="project-tech-stack">
+          <div>
+            <img src="./img/css.png" alt="">
+          </div>
+          <div>
+            <img src="./img/javascriptIcon.png" alt="">
+          </div>
+          <div>
+            <img src="./img/express.js" alt="">
+          </div>
+          <div>
+            <img src="./img/mongodb.svg" alt="">
+          </div>
+          <div>
+            <img src="./img/node.js.svg" alt="">
+          </div>
+             </div> 
+
+       <!-- vew and github -->
+  
+      <div class="project-links">
+        <button class="github-link"><i class="fa-brands fa-github"></i></button>
+        <button class="deployed-link"><i class="fa-solid fa-eye"></i></button> 
+  
+      </div>
+
+    </div>
+    <!-- project card ends here -->
+   
+</div>
 
 <!-- projects end -->
 <!-- part2 end  -->
 </body>
 <script src="./index.js"></script>
+
+<script>
+  let projectDiv = document.querySelector("#projects");
+  for(let i=0;i<5;i++){
+    let div = document.createElement("div");
+    div.setAttribute("class","project-card");
+    div.innerHTML=`<img src="https://static.wixstatic.com/media/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg/v1/fill/w_640,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg" alt="project-image">
+        <h1 class="project-title">Ecommerce project </h1>
+        <p class="project-description">Lorem, ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis necessitatibus quis ea et perspiciatis veritatis, dolore autem maxime dolores, nemo consequulestiae? eligendi.</p>    
+      
+        <div class="project-tech-stack">
+          <div>
+            <img src="./img/css.png" alt="">
+          </div>
+          <div>
+            <img src="./img/javascriptIcon.png" alt="">
+          </div>
+          <div>
+            <img src="./img/express.js" alt="">
+          </div>
+          <div>
+            <img src="./img/mongodb.svg" alt="">
+          </div>
+          <div>
+            <img src="./img/node.js.svg" alt="">
+          </div>
+             </div> 
+
+       <!-- vew and github -->
+  
+      <div class="project-links">
+        <button class="github-link"><i class="fa-brands fa-github"></i></button>
+        <button class="deployed-link"><i class="fa-solid fa-eye"></i></button> 
+  
+      </div>`
+      projectDiv.append(div);
+  }
+</script>
+
+
 </html>
