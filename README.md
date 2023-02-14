@@ -4,7 +4,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://web.archive.org/web/20230101130849/https://linkedin.com/in/anandhupa" target="blank"><img align="center" src="https://web.archive.org/web/20230101130849/https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anandhupa" height="30" width="40" /></a>
+<a href="https://web.archive.org/web/20230101130849/https://linkedin.com/in/anandhupa](https://github-readme-stats.vercel.app/api?username=Anandhupa1&theme=highcontrast&hide_border=true&include_all_commits=true&count_private=true" target="blank"><img align="center" src="https://web.archive.org/web/20230101130849/https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anandhupa" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
