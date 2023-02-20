@@ -23,3 +23,17 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+
+
+// let resumeBtn = document.querySelector("#resume");
+// resumeBtn.addEventListener("click",(e)=>{
+// 	e.preventDefault();
+
+//    setTimeout(()=>{
+// 	window.location.href="https://drive.google.com/file/d/1Zz_xGvoLY_bsOq0ahVqspZSfEtX-Af-F/view?usp=share_link"
+//    },500)
+
+
+	
+// })

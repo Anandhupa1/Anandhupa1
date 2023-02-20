@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles.css">
-    <title>Anandhu P A</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Anandhu P A</title>
 </head>
+
 <body>
   <!-- Header -->
   <section id="header">
     <div class="header container">
-      <div class="nav-bar">
+      <div class="nav-menu">
         <div class="brand">
-      
+          <a href="#home">
+            
+          </a>
         </div>
         <div class="nav-list">
           <div class="hamburger">
             <div class="bar"></div>
           </div>
           <ul>
+            <li><a href="#home" data-after="Home">Home</a></li>
             <li><a href="#about" data-after="About">About</a></li>
+            
             <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#skills" data-after="Contact">Skills</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li>   <a href="#" class="cta">Resume</a></li>
+          
           </ul>
         </div>
       </div>
@@ -33,188 +39,351 @@
   <!-- End Header -->
 
 
+  <!-- Home Section  -->
+  <section id="home">
+    <div class="home nav-link container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        
+        <h1  id="user-detail-name"   >I'm  Anandhu <span></span></h1>
+        <a href="#contact" type="button" class="cta">Hire me</a>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End home Section  -->
   <!-- About Section -->
   <section id="about">
     <div class="about container">
       <div class="col-left">
-      <img src="./img/Profile pic small size.png" alt="">
+        <div class="about-img">
+          <img class="home-img" src="./images/profilePic Circular.png" alt="img">
+        </div>
       </div>
       <div class="col-right">
-        <h1 class="section-title">Anandhu<span> PA</span></h1>
+        <h1 class="section-title">About <span>me</span></h1>
         <h2>Full Stack Developer</h2>
-        <p>Analytical and detail-oriented aspiring full stack web
-            developer, who possesses self-discipline and ability to work
-            with minimum supervision. Passionate about coding and
-            highly interested in working on a product-based company.</p>
-        <a href="#" class="cta">Download Resume</a>
+        <p id="user-detail-intro" >Analytical and detail-oriented aspiring full stack web
+          developer, who possesses self-discipline and ability to work
+          with minimum supervision. Passionate about coding and
+          highly interested in working on a product-based company.</p>
+        
+        <a id="resume" target="_blank" class="cta"
+                        href="https://drive.google.com/file/d/1Zz_xGvoLY_bsOq0ahVqspZSfEtX-Af-F/view?usp=share_link"
+                        >View Resume</a>
+          <a id="resume" target="_blank" class="cta"
+                        href="./images/Anandhu-P-A_Resume.pdf"
+                        download>Download Resume</a>
       </div>
-      
     </div>
   </section>
   <!-- End About Section -->
 
+<!-- projects section  -->
 
 
+<section class="nav-link projects" id="projects">
+  <div class="max-width">
+    <h1 style="margin: 50px;" class="section-title">My  <span>projects</span></h1>
+    
+      <div class="serv-content">
+        
+        <!-- project single card start -->
+          <div class="project-card">
+              <div class="box">
+                  <img class="projectImage" src="./images/projectImageDummy.png" alt="" width="100%"
+                      height="120%">
+                  <div class="project-title text" id="projectName" > Ecommerce project 1</div>
+                  <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti architecto expedita, incidunt aliquam quibusdam.</p>
+                  <div class="project-tech-stack">
+                      <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                      <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                      <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  </div>
+                  <div class="sourceCodeBtn">
+                      <button onclick="window.open('https://timely-wisp-f8d982.netlify.app/','_blank')" class="viewBtn project-deployed-link">View </button>
+                      <button onclick="window.open('https://github.com/Anandhupa1/Sephora-clone-e-commerce-website','_blank')" class="viewBtn project-github-link">Github</button>
+                  </div>
+              </div>
+          </div>
 
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Tech <span>Stack</span></h1>
+        <!-- project single card start -->
+        <div class="project-card">
+          <div class="box">
+              <img class="projectImage" src="./images/projectImageDummy.png" alt="" width="100%"
+                  height="120%">
+              <div class="project-title text" id="projectName" > Ecommerce project 1</div>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti architecto expedita, incidunt aliquam quibusdam.</p>
+              <div class="project-tech-stack">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+              </div>
+              <div class="sourceCodeBtn">
+                  <button onclick="window.open('https://timely-wisp-f8d982.netlify.app/','_blank')" class="viewBtn project-deployed-link">View </button>
+                  <button onclick="window.open('https://github.com/Anandhupa1/Sephora-clone-e-commerce-website','_blank')" class="viewBtn project-github-link">Github</button>
+              </div>
+          </div>
       </div>
-      <div class="contact-items">
+          
+
+        <!-- project single card start -->
+        <div class="project-card">
+          <div class="box">
+              <img class="projectImage" src="./images/projectImageDummy.png" alt="" width="100%"
+                  height="120%">
+              <div class="project-title text" id="projectName" > Ecommerce project 1</div>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti architecto expedita, incidunt aliquam quibusdam.</p>
+              <div class="project-tech-stack">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+              </div>
+              <div class="sourceCodeBtn">
+                  <button onclick="window.open('https://timely-wisp-f8d982.netlify.app/','_blank')" class="viewBtn project-deployed-link">View </button>
+                  <button onclick="window.open('https://github.com/Anandhupa1/Sephora-clone-e-commerce-website','_blank')" class="viewBtn project-github-link">Github</button>
+              </div>
+          </div>
+      </div>
+
+        <!-- project single card start -->
+        <div class="project-card">
+          <div class="box">
+              <img class="projectImage" src="./images/projectImageDummy.png" alt="" width="100%"
+                  height="120%">
+              <div class="project-title text" id="projectName" > Ecommerce project 1</div>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti architecto expedita, incidunt aliquam quibusdam.</p>
+              <div class="project-tech-stack">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+              </div>
+              <div class="sourceCodeBtn">
+                  <button onclick="window.open('https://timely-wisp-f8d982.netlify.app/','_blank')" class="viewBtn project-deployed-link">View </button>
+                  <button onclick="window.open('https://github.com/Anandhupa1/Sephora-clone-e-commerce-website','_blank')" class="viewBtn project-github-link">Github</button>
+              </div>
+          </div>
+      </div>
+          
+ 
+        <!-- project single card start -->
+        <div class="project-card">
+          <div class="box">
+              <img class="projectImage" src="./images/projectImageDummy.png" alt="" width="100%"
+                  height="120%">
+              <div class="project-title text" id="projectName" > Ecommerce project 1</div>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti architecto expedita, incidunt aliquam quibusdam.</p>
+              <div class="project-tech-stack">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+                  <img src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+              </div>
+              <div class="sourceCodeBtn">
+                  <button onclick="window.open('https://timely-wisp-f8d982.netlify.app/','_blank')" class="viewBtn project-deployed-link">View </button>
+                  <button onclick="window.open('https://github.com/Anandhupa1/Sephora-clone-e-commerce-website','_blank')" class="viewBtn project-github-link">Github</button>
+              </div>
+          </div>
+      </div>         
+
+
+          
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- end projects section -->
+
+<!-- start skills section  -->
+
+<section class="nav-link skills teams" id="skills">
+  <div class="max-width">
+    <h1 style="margin: 50px;" class="section-title"> <span>Skills</span></h1>
+      <div class="tools">
+          <div class="skills-card">
+              <img  class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg" alt="">
+              <h1 class="skills-card-name">HTML5</h1>
+          </div>
+          <div class="skills-card">
+              <img  class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg" alt="">
+              <h1 class="skills-card-name">CSS3</h1>
+          </div>
+          <div class="skills-card">
+              <img  class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg" alt="">
+              <h1 class="skills-card-name">JavaScript</h1>
+          </div>
+          
+          <div class="skills-card">
+              <img  class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg" alt="">
+              <h1 class="skills-card-name">NODE JS</h1>
+          </div>
+          <div class="skills-card">
+              <img  class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg" alt="">
+              <h1 class="skills-card-name">MONGODB</h1>
+          </div>
+          <div class="skills-card">
+              <img  class="skills-card-img" src="https://chiranjeev-thapliyal.vercel.app/svg/git.svg" alt="">
+              <h1 class="skills-card-name">GIT</h1>
+          </div>
+          
+
+      </div>
+  </div>
+</section>
+
+
+
+<!-- end skills section  -->
+
+
+
+
+
+
+
+
+    <!-- contact section start -->
+    <section class="nav-link contact" id="contact">
+      <div class="max-width">
+        <h1 style="margin: 50px;" class="section-title">contact <span>me</span></h1>
+          <div class="contact-content">
+              <div class="column left">
+                  
+
+                  <div class="icons">
+                      <div class="row">
+                        <i class="fa-brands fa-github"></i>
+                          <div class="info">
+                              <div  id="contact-github" class="sub-title"><a class="sub-title1" target="_blank"
+                                      href="https://github.com/Anandhupa1">github.com/<b>Anandhupa1</b></a></div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <i class="fa-brands fa-linkedin"></i>
+                          <div class="info">
+                              <div id="contact-linkedin"  class="sub-title"><a class="sub-title1" target="_blank"
+                                      href="https://www.linkedin.com/in/anandhu-p-a-953a30231/">linkedin.com/in/<b>anandhu-p-a-953a30231/</b></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <i class="fa-solid fa-envelope"></i>
+                          <div class="info">
+                              <div id="contact-email"  class="sub-title1" > <b>anandhupa131</b>@gmail.com</div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <i class="fa-solid fa-phone"></i>
+                          <div class="info">
+                              <div id="contact-phone"  class="sub-title1"> <b>+91 9526332548</b></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="column right">
+                  
+                  <form >
+                      <div class="fields">
+                          <div class="field name">
+                              <input type="text" name="name" placeholder="name" required>
+                          </div>
+                          <div class="field email">
+                              <input type="email" name="email" placeholder="email" required>
+                          </div>
+                      </div>
+                      <div class="field">
+                          <input type="text" name="subject" placeholder="subject" required>
+                      </div>
+                      <div class="field textarea">
+                          <textarea cols="30" rows="10" name="content" placeholder="Message" required></textarea>
+                      </div>
+                      <div class="button-area">
+                          <button type="submit">Send message</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!--git stats -->
+ <!-- <p align="center">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api?username=anandhupa1&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=anandhupa1&layout=compact&hide_border=true&theme=darcula&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php&exclude_repo=Pacman-AI">
+  <img src ="https://github-readme-streak-stats.herokuapp.com?user=anandhupa1&theme=darcula&hide_border=true&background=FFFFFF00">
+  <br>
+  <br>
+
+</p>  -->
+
+<!--git stats end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
       
-        <div class="contact-item">
-          <div class="icon"><img src="./img/javascriptIcon.png" /></div>
-          <div class="contact-info">
-            <h1>Javascript</h1>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/icons8-html-5-48.png" /></div>
-          <div class="contact-info">
-            <h1>HTML 5</h1>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/css.png" /></div>
-          <div class="contact-info">
-            <h1>CSS 3</h1>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/nodeIcon.png" /></div>
-          <div class="contact-info">
-            <h1>Node.js</h1>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/mongodb.svg" /></div>
-          <div class="contact-info">
-            <h1>MongoDB</h1>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="./img/bootsrap.svg" /></div>
-          <div class="contact-info">
-            <h1>Bootsrap 5</h1>
-            
-          </div>
-        </div>
-       
-
+      <h2>Made by Anandhu P A</h2>
+      <div class="social-icon">
+        <!-- <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div> -->
+        
       </div>
+      <p>Copyright © 2023 Anandhupa. All rights reserved</p>
     </div>
   </section>
-  <!-- End Contact Section -->
+  <!-- End Footer -->
 
 
 
-<!-- part2 start  -->
-<!-- projects start -->
-<div id="div-projectHeading" >
-    <h1 class="section-title">PROJECTS</h1>
-  </div>
-
-<div id="projects">
-    <!-- <div class="project-card">
-    <a href="#"><img src="ttps://static.wixstatic.com/media/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg/v1/fill/w_640,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg" alt="project-image"></a>
-    <h3 class="project-title">Ecommerce project </h3>
-    <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, itaque libero. Ipsa dolorem obcaecati atque ratione quo ipsam possimus qui! Eveniet labore, deserunt dolor consequuntur placeat sapiente velit, neque voluptatibus, quidem quia error quisquam! Hic quas nulla sed ad possimus aperiam, mollitia molestiae iusto corporis quis ullam maiores, totam eligendi.</p>    
-    <div class="project-tech-stack">
-        tech staack
-    </div>
-    <div>
-         <button class="github-link">Github</button>
-        <button class="deployed-link">view</button> 
-    </div>
-
-</div> -->
- <!-- project card starts here -->
-    <div class="project-card">
-     <img src="https://static.wixstatic.com/media/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg/v1/fill/w_640,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg" alt="project-image">
-        <h1 class="project-title">Ecommerce project </h1>
-        <p class="project-description">Lorem, ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis necessitatibus quis ea et perspiciatis veritatis, dolore autem maxime dolores, nemo consequulestiae? eligendi.</p>    
-      
-        <div class="project-tech-stack">
-          <div>
-            <img src="./img/css.png" alt="">
-          </div>
-          <div>
-            <img src="./img/javascriptIcon.png" alt="">
-          </div>
-          <div>
-            <img src="./img/express.js" alt="">
-          </div>
-          <div>
-            <img src="./img/mongodb.svg" alt="">
-          </div>
-          <div>
-            <img src="./img/node.js.svg" alt="">
-          </div>
-             </div> 
-
-       <!-- vew and github -->
   
-      <div class="project-links">
-        <button class="github-link"><i class="fa-brands fa-github"></i></button>
-        <button class="deployed-link"><i class="fa-solid fa-eye"></i></button> 
-  
-      </div>
-
-    </div>
-    <!-- project card ends here -->
-   
-</div>
-
-<!-- projects end -->
-<!-- part2 end  -->
+  <script src="./app.js"></script>
 </body>
-<script src="./index.js"></script>
-
-<script>
-  let projectDiv = document.querySelector("#projects");
-  for(let i=0;i<5;i++){
-    let div = document.createElement("div");
-    div.setAttribute("class","project-card");
-    div.innerHTML=`<img src="https://static.wixstatic.com/media/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg/v1/fill/w_640,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e0314_b069ac6107c9410b9b5087c0862419de~mv2.jpg" alt="project-image">
-        <h1 class="project-title">Ecommerce project </h1>
-        <p class="project-description">Lorem, ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae perferendis necessitatibus quis ea et perspiciatis veritatis, dolore autem maxime dolores, nemo consequulestiae? eligendi.</p>    
-      
-        <div class="project-tech-stack">
-          <div>
-            <img src="./img/css.png" alt="">
-          </div>
-          <div>
-            <img src="./img/javascriptIcon.png" alt="">
-          </div>
-          <div>
-            <img src="./img/express.js" alt="">
-          </div>
-          <div>
-            <img src="./img/mongodb.svg" alt="">
-          </div>
-          <div>
-            <img src="./img/node.js.svg" alt="">
-          </div>
-             </div> 
-
-       <!-- vew and github -->
-  
-      <div class="project-links">
-        <button class="github-link"><i class="fa-brands fa-github"></i></button>
-        <button class="deployed-link"><i class="fa-solid fa-eye"></i></button> 
-  
-      </div>`
-      projectDiv.append(div);
-  }
-</script>
-
 
 </html>
