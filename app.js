@@ -40,17 +40,3 @@ menu_item.forEach((item) => {
 
 
 //github calendar
-
-let username="Anandhupa1"
-GitHubCalendar(".calendar", "Anandhupa1");
-
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "Anandhupa1", { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".calendar", "Anandhupa1", {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-       }
-    })
-	// .then(r => r.text())
