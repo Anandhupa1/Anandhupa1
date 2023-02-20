@@ -207,6 +207,17 @@ h2{
 #header .hamburger.active .bar::after {
 	top: 0;
 }
+
+#resume-button-1{
+	background-color: transparent;
+	border: 1px solid #6C63FF;
+	margin: 20px;
+	color: var(--main);
+	color: transparent;
+	
+}
+
+
 /* End Header section */
 
 /* Home Section */
@@ -474,9 +485,23 @@ h2{
 
 /* tools and skills section end  */
 
-
-
-
+/* gitstats start */
+.calendar{
+	
+}
+#gitStatus{
+	
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+#gitStatus div{
+	width: 48%;
+	
+}
 
 /* contact Section */
 .contact  .contact-content {

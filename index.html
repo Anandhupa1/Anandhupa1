@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Anandhu P A</title>
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
 
 <body>
@@ -28,8 +30,10 @@
             <li><a href="#about" data-after="About">About</a></li>
             
             <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#skills" data-after="Contact">Skills</a></li>
+            <li><a href="#skills" data-after="Skills">Skills</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
+            <li><a id="resume-button-1" class="cta" href="./images/Anandhu-P-A_Resume.pdf" data-after="Resume"download>Resume</a></li>
+            <!-- <a id="resume-button-1" target="_blank" class="cta"  href="https://drive.google.com/file/d/1Zz_xGvoLY_bsOq0ahVqspZSfEtX-Af-F/view?usp=share_link">Resume</a> -->
           
           </ul>
         </div>
@@ -68,12 +72,10 @@
           with minimum supervision. Passionate about coding and
           highly interested in working on a product-based company.</p>
         
-        <a id="resume" target="_blank" class="cta"
-                        href="https://drive.google.com/file/d/1Zz_xGvoLY_bsOq0ahVqspZSfEtX-Af-F/view?usp=share_link"
-                        >View Resume</a>
-          <a id="resume" target="_blank" class="cta"
+        <a id="resume" target="_blank" class="cta"  href="https://drive.google.com/file/d/1Zz_xGvoLY_bsOq0ahVqspZSfEtX-Af-F/view?usp=share_link">View Resume</a>
+          <!-- <a id="resume" target="_blank" class="cta"
                         href="./images/Anandhu-P-A_Resume.pdf"
-                        download>Download Resume</a>
+                        download>Download Resume</a> -->
       </div>
     </div>
   </section>
@@ -310,9 +312,27 @@
           </div>
       </div>
   </section>
+  <h1 style="margin: 50px;" class="section-title">Git <span>status</span></h1>
+  <div class="react-activity-calendar calendar">
+    
+    <!-- Loading stuff -->
+   
+</div>
 
 
+<section id="gitStatus" >
 
+<div id="github-streak-stats">
+  <img src ="https://github-readme-streak-stats.herokuapp.com?user=anandhupa1&theme=darcula&hide_border=true&background=FFFFFF00">
+
+</div>
+<div id="github-top-langs" >
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=anandhupa1&layout=compact&hide_border=true&theme=darcula&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php&exclude_repo=Pacman-AI">
+</div>
+<div id="github-stats-card">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api?username=anandhupa1&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000">
+</div>
+</section>
 
 
 
