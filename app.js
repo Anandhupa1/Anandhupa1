@@ -52,4 +52,5 @@ GitHubCalendar(".calendar", "Anandhupa1");
        proxy (username) {
          return fetch(`https://your-proxy.com/github?user=${username}`)
        }
-    }).then(r => r.text())
+    })
+	// .then(r => r.text())
