@@ -71,6 +71,6 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 
 ### connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anandhu-p-a-953a30231) 
-![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=linkedIn)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=linkedIn)](https://linkedin.com/in/anandhu-p-a-953a30231) 
+<!-- ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=internet) -->
 
