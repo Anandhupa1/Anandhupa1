@@ -3,8 +3,8 @@
 ## I'm [Anandhu P A][homepage]
 Analytical and detail-oriented aspiring full stack web developer, who possesses self-discipline and ability to work with minimum supervision. Passionate about coding and highly interested in working on a product-based company.
    
-[homepage]: https://anandhupa.com
-[github]: https://github.com
+[homepage]: https://anandhupa1.github.io/
+[github]: https://github.com/Anandhupa1
 
 ---
 
@@ -25,7 +25,7 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 <!--git stats end-->
 
 
-<!--
+
 > Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.
 > -- Steve Jobs
 </br>
@@ -63,7 +63,6 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 ##part 2 
 
--->
 
 ### connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/anandhu-p-a-953a30231) 
