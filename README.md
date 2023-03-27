@@ -1,5 +1,5 @@
-<img align="left" width="150" height="150" alt="Dani Akash" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg"/>
-
+<!-- <img align="left" width="150" height="150" alt="Dani Akash" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg"/>
+ -->
 ## I'm [Anandhu P A][homepage]
 Analytical and detail-oriented aspiring full stack web developer, who possesses self-discipline and ability to work with minimum supervision. Passionate about coding and highly interested in working on a product-based company.
    
