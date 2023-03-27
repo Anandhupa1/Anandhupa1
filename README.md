@@ -26,15 +26,15 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 
 
-> Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.
-> -- Steve Jobs
+> Dream the impossible , Know that you are born in this world to do something wonderfull and unique.
+> -- Sri Sri Ravishankar
 </br>
 
 
 
 
 
-### Technologies
+<!-- ### Technologies
 
 ![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML)
 ![Javascript](https://img.shields.io/badge/-Javascript-000?&logo=Javascript)
@@ -51,9 +51,9 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 
 ![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow) -->
 
-### Full Stack Projects
+<!-- ### Full Stack Projects
 
 [![](https://img.shields.io/badge/-🧬%20My%20Website-000)](https://github.com/adamalston/v2)
 [![](https://img.shields.io/badge/-🦠%20COVID‑19%20Dashboard-000)](https://github.com/adamalston/COVID-19-Dashboard)
@@ -62,7 +62,7 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 [![](https://img.shields.io/badge/-🛰%20KubeSat-000)](https://github.com/adamalston/kubesat)
 [![](https://img.shields.io/badge/-🔊%20Voice%20Poker-000)](https://github.com/adamalston/Poker)
 [![](https://img.shields.io/badge/-🗺%20PokémonGo%20Map-000)](https://github.com/adamalston/PokemonGo-Map)
-
+ -->
 
 
 
