@@ -36,7 +36,7 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 ### Technologies
 
-![HTML](https://img.shields.io/badge/-HTML-000?&logo=html)
+![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML)
 ![Javascript](https://img.shields.io/badge/-Javascript-000?&logo=Javascript)
 ![css](https://img.shields.io/badge/-css-000?&logo=css)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
