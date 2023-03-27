@@ -6,7 +6,7 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 [homepage]: https://anandhupa1.github.io/
 [github]: https://github.com/Anandhupa1
 
----
+<!-- --- -->
 
 
 ###  Tech Stack
