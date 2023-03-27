@@ -36,14 +36,20 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 ### Technologies
 
-![asdfj](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
-![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
-![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
+![HTML](https://img.shields.io/badge/-HTML-000?&logo=html)
+![Javascript](https://img.shields.io/badge/-Javascript-000?&logo=Javascript)
+![css](https://img.shields.io/badge/-css-000?&logo=css)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
-![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
-![React](https://img.shields.io/badge/-React-000?&logo=React)
+![Redis](https://img.shields.io/badge/-Mongodb-000?&logo=Mongodb)
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+
+![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
+
+
+
+
+
+
 ![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
 
