@@ -18,7 +18,9 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 ![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML)
 ![css](https://img.shields.io/badge/-css-000?&logo=css)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
-![Redis](https://img.shields.io/badge/-Mongodb-000?&logo=Mongodb)
+![Mongodb](https://img.shields.io/badge/-Mongodb-000?&logo=Mongodb)
+![Redis](https://img.shields.io/badge/-redis-000?&logo=redis)
+![Redis](https://img.shields.io/badge/-chart.js-000?&logo=chart.js)
 ![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
 ![Redis](https://img.shields.io/badge/-Photoshop-000?&logo=adobephotoshop)
 
