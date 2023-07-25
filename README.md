@@ -15,12 +15,14 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 
 ![Javascript](https://img.shields.io/badge/-Javascript-000?&logo=Javascript)
-![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML)
-![css](https://img.shields.io/badge/-css-000?&logo=css)
+![HTML](https://img.shields.io/badge/-HTML5-000?&logo=html5)
+![css](https://img.shields.io/badge/-CSS3-000?&logo=css3)
+![React](https://img.shields.io/badge/-React-000?&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
 ![Mongodb](https://img.shields.io/badge/-Mongodb-000?&logo=Mongodb)
 ![Redis](https://img.shields.io/badge/-redis-000?&logo=redis)
-![Redis](https://img.shields.io/badge/-chart.js-000?&logo=chart.js)
+![Chart.js](https://img.shields.io/badge/-chart.js-000?&logo=chart.js)
+![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=mysql)
 ![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
 ![Redis](https://img.shields.io/badge/-Photoshop-000?&logo=adobephotoshop)
 
