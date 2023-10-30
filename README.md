@@ -16,16 +16,31 @@ Analytical and detail-oriented aspiring full stack web developer, who possesses 
 
 
 ![Javascript](https://img.shields.io/badge/-Javascript-000?&logo=Javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
+![Prompt Engineering](https://img.shields.io/badge/-Prompt_Engineering-000?&logo=prompt)
 ![HTML](https://img.shields.io/badge/-HTML5-000?&logo=html5)
 ![css](https://img.shields.io/badge/-CSS3-000?&logo=css3)
+![ejs](https://img.shields.io/badge/-EJS-000?&logo=EJS)
+![Next.js](https://img.shields.io/badge/-Next-000?&logo=Next.js)
 ![React](https://img.shields.io/badge/-React-000?&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
+![Express.js](https://img.shields.io/badge/-Express.js-000?&logo=express)
+![Socket.io](https://img.shields.io/badge/-Socket.io-000?&logo=socket.io)
 ![Mongodb](https://img.shields.io/badge/-Mongodb-000?&logo=Mongodb)
 ![Redis](https://img.shields.io/badge/-redis-000?&logo=redis)
 ![Chart.js](https://img.shields.io/badge/-chart.js-000?&logo=chart.js)
 ![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=mysql)
 ![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
-![Redis](https://img.shields.io/badge/-Photoshop-000?&logo=adobephotoshop)
+![Flask](https://img.shields.io/badge/-flask-000?&logo=flask)
+![Python](https://img.shields.io/badge/-flask-000?&logo=python)
+![OpenAI](https://img.shields.io/badge/-OpenAI-000?&logo=OpenAI)
+![LangChain](https://img.shields.io/badge/-LangChain-000?&logo=LangChain)
+![LangChain](https://img.shields.io/badge/-LangChain-000?&logo=LangChain)
+![Qdrant](https://img.shields.io/badge/-qdrant-000?&logo=qdrant)
+![PineCone](https://img.shields.io/badge/-pinecone-000?&logo=pinecone)
+![System Design](https://img.shields.io/badge/-System_Design-000?&logo=systemdesign)
+
+![Adobe Photoshop](https://img.shields.io/badge/-Photoshop-000?&logo=adobephotoshop)
 
 
 
